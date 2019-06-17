@@ -1,3 +1,29 @@
+<!DOCTYPE html>
 <html>
-    
+<head>
+    <title>Flames</title>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="flames.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div>
+        <form id="nameForm">
+            <input type="text" id='urName' name="urName">
+            <input type="text" id="baeName" name="baeName">
+        
+            <div class="content" style="display: none"> LEts Play!!</div>
+            <div class='but_por'>
+                <input name="calculate" type="button" value="FLAMES" onclick=calc() class='buttonMini'>
+                <input type=reset value=Reset onclick='clear_all()' class='buttonMini'>
+                <!-- <span  align='center' style="font-size: 10px;color: #dadada;" id="dumdiv"></span> -->
+            </div>
+        </form>
+    </div>
+    <script src="flames.js"></script>
+</body>
 </html>
